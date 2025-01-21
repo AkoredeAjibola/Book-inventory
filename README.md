@@ -38,7 +38,7 @@ Note: The .env file is excluded from version control using .gitignore.
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/book-inventory.git
+git clone https://github.com/AkoredeAjibola/book-inventory.git
 cd book-inventory
 
 Install dependencies:
