@@ -1,40 +1,40 @@
 Book Inventory Application (Bookie)
 Introduction
-This is a ReactJS and TypeScript project that provides a book inventory application using the ANAPIOFICEANDFIRE API. The application fetches and displays a list of books and allows users to search for books and characters with advanced filtering options.
+This ReactJS and TypeScript project provides a book inventory application using the ANAPIOFICEANDFIRE API. The application fetches and displays a list of books and allows users to search for books and characters with advanced filtering options.
 
 Features:
 Display a list of books with the following details:
-Publisher
-Name
-ISBN
-Authors
-End Date
+Publisher,
+Name,
+ISBN,
+Authors,
+End Date,
 Infinite scrolling for book lists with pagination.
 
 Advanced search functionality using:
-Publisher
-Name
-ISBN
-Authors
-End Date
-Character Name
-Character Culture
+Publisher,
+Name,
+ISBN,
+Authors,
+End Date,
+Character Name,
+Character Culture,
 Responsive and user-friendly interface.
-Efficient API handling by combining results from the books and characters endpoints.
+
+Efficient API handling by combining results from the books and characters' endpoints.
 
 
-Getting Started
-Prerequisites
+Getting Started/Prerequisites
 To run this project, ensure you have the following installed:
 
 Node.js (v16 or higher)
 npm or yarn
+
 Environment Variables
 The application uses environment variables to store sensitive data like the API base URL. Ensure to create a .env file in the root directory with the following content:
 
 VITE_API_BASE_URL=https://www.anapioficeandfire.com/api
 Note: The .env file is excluded from version control using .gitignore.
-
 
 Installation
 Clone the repository:
